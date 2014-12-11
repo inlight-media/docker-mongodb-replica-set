@@ -15,7 +15,7 @@ It's probably not a good idea to run this setup in production as each mongo inst
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
-2. `docker build github.com/inlight/docker-mongodb-replica-set`
+2. `docker build github.com/inlight-media/docker-mongodb-replica-set`
 
 ### Usage
 
