@@ -29,7 +29,7 @@ Refer to [Dockerfile MongoDB](https://github.com/dockerfile/mongodb) for usage n
 
 Once the container is running you can initialize the ReplicaSet with the following steps:
 
-* Access shell of container with `docker exec -it mongodb exec bash`
+* Access shell of container with `docker exec -it mongodb bash`
 * Access mongo shell with `mongo`
 * `rs.initiate()` to initiate ReplicaSet
 * Use the output of previous step to grab the 'me' (hostname of the machine) property to add to ReplicaSet:
